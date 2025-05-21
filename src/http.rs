@@ -24,7 +24,7 @@ pub fn get(url: impl IntoUrl) -> Result<Response, Error> {
                 },
                 Err(e) => {
                     // Log error but continue without proxy
-                    eprintln!("Failed to set proxy from FNM_PROXY environment variable: {}", e);
+                    eprintln!("Failed to set proxy from FNM_PROXY environment variable: {e}");
                 }
             }
         }
