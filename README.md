@@ -12,7 +12,7 @@
 
 ## Features
 
-🌎 Cross-platform support (macOS, Windows, Linux)
+🌎 Cross-platform support (macOS, Windows, Linux).
 
 ✨ Single file, easy installation, instant startup
 
